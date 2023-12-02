@@ -11,6 +11,25 @@
     <body>
         <header> 
             <h1>Võluvam kui Wõlu</h1>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Esileht</a>
+                <a href="veini-how-to.html">Kuidas teha veini</a>
+                <a href="teised-allikad.html" class="active">Teised allikad</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+                      
+              <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }
+              </script>
         </header>
         
         <p>Teame, et meie juhend ei kata iga pisidetaili, mis veini tegemisega seotud on. Seetõttu kogume siia kokku erinevad allikad, mida samuti vaadata soovitame!</p>

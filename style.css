@@ -1,6 +1,6 @@
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #743A36;
 }
 
 .topnav a {
@@ -15,11 +15,11 @@
 
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: #310A0B;
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #310A0B;
     color: white;
 }
 
@@ -32,14 +32,15 @@ header {
     color: #B96A59;
     background-color: #310A0B;
     text-align: center;
-    font-family: 'Avenir', serif;
+    font-family: 'Copperplate', 'Copperplate Gothic Light', fantasy;
     font-size: 150%;
+    padding-top: 10px;
 }
 
 body {
     color: #310A0B;
     background-image: url('pildid/puu.jpg');
-    font-family: 'Times New Roman', serif;
+    font-family: 'Arial', 'Verdana', sans-serif;
     padding-top: 15px;
     padding-right: 40px;
     padding-bottom: 15px;
@@ -51,19 +52,29 @@ h2 {
     background-color: #310A0B;
     text-align: center;
     font-style: italic;
-    font-size: 300%;
+    font-family: 'Copperplate Gothic Light', fantasy;
+    font-size: 150%;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
 }
 
 h3 {
     background-color: #310A0B;
     color: #B96A59;
     text-align: center;
-    font-size: 200%;
+    font-family: 'Copperplate Gothic Light', fantasy;
+    font-size: 150%;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 
 p {
     background-color: #B96A59;
-    font-size: 150%;
+    font-size: 100%;
     text-align: justify;
     padding-top: 15px;
     padding-right: 20px;
@@ -73,7 +84,6 @@ p {
 
 ol {
     background-color: #B96A59;
-    font-size: 150%;
     text-align: justify;
     padding-top: 30px;
     padding-right: 20px;

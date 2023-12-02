@@ -10,6 +10,23 @@
     <body>
         <header> 
             <h1>Võluvam kui Wõlu</h1>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Esileht</a>
+                <a href="veini-how-to.html" class="active">Kuidas teha veini</a>
+                <a href="teised-allikad.html">Teised allikad</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+              </div>
+                      
+              <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }
+              </script>
         </header>
 
         <h2>Mida vaja läheb?</h2>
@@ -41,7 +58,7 @@
         <li>Kui on näha, et suhkru söömine on hulga aeglasemaks muutunud, tuleks <strong>valada kääriv mahl demijohni</strong> (nüüd saaks kasutada sifooni). Kui tehakse punast veini, tuleks valada kääriv mahl läbi filtrikoti ja visata viljaliha minema. Demijohn peaks olema peaaegu ääreni täis, ainult jättes veidi vaba ruumi kummi korki ja õhulukku jaoks (õhulukku ots ei tohiks kääriva mahla sisse minna). Kui jääb puudu, siis täita mahla või veega kuni on peaaegu ääreni. Selle põhjuseks on, et käärival mahlal oleks võimalikult vähe kontakti õhuga. Panna kummi kork peale ja selle auku, veega täidetud õhulukk.</li>
         <li>Nüüd algab <strong>pikk sekundaarne käärimine</strong>. Veidi peaks näha olema nõu sees mullide tekkimist (see on süsinikdioksiid, mis on pärmi suhkru söömisest jääkaine, koos etanooliga) ja vahel õhulukkus ka mulli tekkimist. Nüüd kääriva mahlas koguneb põhja sette, mis koosneb kulunud pärmist, järelejäänud vilja lihast ja viinhappe kristallid. See sette ei ole kahjulik veinile, ega inimesele, kuid veini joomise ajal, kui see suhu peaks sattuma, võib inimest öökima ajada. Selle tõttu võiks käärivat mahla õrnalt, et võimalikult vähe setteid kaasa tuleks, ümber valada näiteks käärimisnõusse, puhastada demijohn ära ja valada kääriv mahl tagasi (seda kutsutakse racking-uks). Samal ajal saab vaadata kui palju suhkrut on alles mõõtesilindri ja hüdromeetriga. Seda tuleks algul teha iga 2 nädala tagant, kuid peale 2. või 3. Korda, võib teha peale igat 4. nädalat. Saab ka maitsta kuidas vein meeldib.</li>
         <li>Kui hüdromeeter näitab, et veini tihedus on 1.000 (ehk kõik suhkur on ära söödud) või kui enam vein ei kääri (suhkru sisaldus ei muutu), on <strong>vein valmis villimiseks</strong>. Võib ka veel edasi hoida seda demijohnis, kui näiteks ei ole piisavalt läbipaistev ja tahetakse rohkem setteid eemaldada, kuni lõpuks ollakse veini välimuse ja maitsega rahul.
-            <li>Sifooniga tuleks valada vein demijohnist veini pudelitesse. Pudelisse peaks jääma veidi ruumi pudeli kaelas, et saaks mahutada kork ja umbes paar sentimeetrit veel vaba ruumi, et kork ei oleks otse kontaktis veiniga.
+            <li>Sifooniga tuleks <strong>valada vein demijohnist pudelitesse</strong>. Pudelisse peaks jääma veidi ruumi pudeli kaelas, et saaks mahutada kork ja umbes paar sentimeetrit veel vaba ruumi, et kork ei oleks otse kontaktis veiniga.
         </ol>
         <p>Ja ongi vein valmis, pudelid võiks panna jahedamasse kohta, vahet ei ole, kas pudelid on pikali või püsti.</p>
     </body>
