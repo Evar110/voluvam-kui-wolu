@@ -1,5 +1,14 @@
+/* https://colors.dopely.top/palettes/86SFsNFdn6N */
 header {
-    color: #ffffff;
-    background-color:rgb(80, 42, 10);
+    color: #B96A59;
+    background-color: #310A0B;
     text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size:300%
+}
+
+body {
+    color: #310A0B;
+    background-color: #E0A387;
+    font-family: Georgia, serif;
 }
