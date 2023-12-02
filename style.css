@@ -4,11 +4,42 @@ header {
     background-color: #310A0B;
     text-align: center;
     font-family: 'Brush Script MT', cursive;
-    font-size:300%
+    font-size: 300%
 }
 
 body {
     color: #310A0B;
     background-color: #E0A387;
     font-family: Georgia, serif;
+}
+
+h2 {
+    font-style: italic;
+}
+
+
+
+
+/* https://www.w3schools.com/howto/howto_css_three_columns.asp */
+.column {
+    float: left;
+    width: 33.33%;
+    border-block: 5px solid #310A0B;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
+.container {
+    position: relative;
 }
