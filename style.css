@@ -101,6 +101,9 @@ ol {
     padding-bottom: 0px;
     padding-left: 15px;
 }
+.container img {
+    width: 100%;
+}
 
 /* JAVASCRIPT ülemise navigatsiooniriba jaoks*/
 /* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
