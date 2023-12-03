@@ -107,6 +107,23 @@ ol {
     }
 }
 
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
+.container {
+    position: relative;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+
+/* JAVASCRIPT ülemise navigatsiooniriba jaoks*/
 /* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
@@ -135,19 +152,4 @@ ol {
         display: block;
         text-align: left;
     }
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* https://www.w3schools.com/howto/howto_css_image_text_blocks.asp */
-.container {
-    position: relative;
-    padding-top: 0px;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-left: 15px;
 }

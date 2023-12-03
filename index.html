@@ -7,29 +7,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<!-- https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+<!-- JavaScript päise navigatsiooniriba: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+
 <body>
     <header>
-        <h1>Võluvam kui Wõlu</h1>
-        <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Esileht</a>
+        <a href="index.html" style="color: #B96A59; text-decoration: none;">
+            <h1>Võluvam kui Wõlu</h1>
+        </a>
+        <div class="topnav" id="myTopnav"> <!-- topnav-klassi objekt -->
+            <a href="index.html" class="active">Esileht</a> <!-- määrame esilehe aktiivseks -->
             <a href="veini-how-to.html">Kuidas teha veini</a>
             <a href="teised-allikad.html">Teised allikad</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
+                <!-- nupu vajutamisel käivitab funktsiooni myFunction() -->
             </a>
-          </div>
-                  
-          <script>
-          function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-              x.className += " responsive";
-            } else {
-              x.className = "topnav";
-            }
-          }
-          </script>
+        </div>
     </header>
 
     <div class="row">
@@ -62,7 +54,7 @@
                     Puutub meist kõige rohkem veinidega kokku.
                     Rikkaliku maitsemeele ning oskusliku sõnavaraga suudab ka kollase Brunneri suursuguseks maalida.
                     <br>
-                    <strong>Lemmikvein: see, mis laual on.</strong> 
+                    <strong>Lemmikvein: see, mis laual on.</strong>
                 </p>
             </div>
         </div>
