@@ -18,6 +18,7 @@ body {
     padding-right: 40px;
     padding-bottom: 15px;
     padding-left: 40px;
+    min-width: 568px;
 }
 
 .pealkiri {
@@ -79,7 +80,7 @@ ol {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 568px) {
     .column {
         width: 100%;
     }
@@ -103,7 +104,7 @@ ol {
 
 /* JAVASCRIPT ülemise navigatsiooniriba jaoks*/
 /* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 568px) {
     .topnav a:not(:first-child) {
         display: none;
     }
